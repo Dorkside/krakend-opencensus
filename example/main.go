@@ -15,13 +15,13 @@ import (
 	krakendgin "github.com/luraproject/lura/v2/router/gin"
 	"github.com/luraproject/lura/v2/transport/http/client"
 
-	opencensus "github.com/krakendio/krakend-opencensus/v2"
-	"github.com/krakendio/krakend-opencensus/v2/exporter"
-	_ "github.com/krakendio/krakend-opencensus/v2/exporter/influxdb"
-	_ "github.com/krakendio/krakend-opencensus/v2/exporter/jaeger"
-	_ "github.com/krakendio/krakend-opencensus/v2/exporter/prometheus"
-	_ "github.com/krakendio/krakend-opencensus/v2/exporter/zipkin"
-	opencensusgin "github.com/krakendio/krakend-opencensus/v2/router/gin"
+	opencensus "github.com/Dorkside/krakend-opencensus/v3"
+	"github.com/Dorkside/krakend-opencensus/v3/exporter"
+	_ "github.com/Dorkside/krakend-opencensus/v3/exporter/influxdb"
+	_ "github.com/Dorkside/krakend-opencensus/v3/exporter/jaeger"
+	_ "github.com/Dorkside/krakend-opencensus/v3/exporter/prometheus"
+	_ "github.com/Dorkside/krakend-opencensus/v3/exporter/zipkin"
+	opencensusgin "github.com/Dorkside/krakend-opencensus/v3/router/gin"
 	"github.com/luraproject/lura/v2/transport/http/server"
 )
 

@@ -1,4 +1,4 @@
-module github.com/Dorkside/krakend-opencensus/v3
+module github.com/Dorkside/krakend-opencensus/v5
 
 go 1.17
 

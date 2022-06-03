@@ -11,7 +11,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	opencensus "github.com/Dorkside/krakend-opencensus/v3"
+	opencensus "github.com/Dorkside/krakend-opencensus/v5"
 	"github.com/luraproject/lura/v2/config"
 	"github.com/luraproject/lura/v2/proxy"
 	"go.opencensus.io/plugin/ochttp"
